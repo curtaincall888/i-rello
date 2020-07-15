@@ -4,7 +4,7 @@
       my Trello
     </header>
     <main>
-      <p class="info-line">All: 0 tasks</p>
+      <p class="info-line">All: {{ totalCardCount }} tasks</p>
       <div class="list-index">
         <!-- ここはList.vueのpropsに渡すための記述 -->
         <list v-for="(item, index) in lists"
@@ -33,7 +33,10 @@ export default {
     // mapStateでstoreに定義されているstateに直接アクセスできる。
     ...mapState([
       'lists'
-    ])
+    ]),
+    totalCardCount() {
+      return this.$store.getters.totalCardCount
+    },
   }
 }
 </script>
