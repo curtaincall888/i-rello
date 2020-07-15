@@ -11,7 +11,8 @@
               :key="item.id"
               :title="item.title"
               :cards="item.cards"
-              :listIndex="index">
+              :listIndex="index"
+              @change="movingCard">
         </list>
         <list-add></list-add>
       </div>
@@ -37,6 +38,11 @@ export default {
     totalCardCount() {
       return this.$store.getters.totalCardCount
     },
-  }
+  },
+  methods: {
+    movingCard: function() {
+      this.$store.dispatch('updateList', { lists: this.lists })
+    }
+  },
 }
 </script>
