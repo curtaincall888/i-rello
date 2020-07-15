@@ -185,8 +185,8 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
-  display: flex;
-  padding: 30px 15px 40px;
+  /* display: flex; */
+  padding: 30px 15px 30px;
   background-color: #fff;
   border-radius: 8px;
   width: 260px;
@@ -209,6 +209,12 @@ main {
 
 .body {
   font-size: 18px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.memo {
+  font-size: 16px;
   width: 100%;
   word-wrap: break-word;
 }
