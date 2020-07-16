@@ -13,8 +13,8 @@ header {
   background: orange;
   height: 70px;
   color: white;
-  font-style: italic;
-  font-size: 40px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
   text-align: left;
   padding: 20px;
 }
