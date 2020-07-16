@@ -9,27 +9,36 @@ const store = new Vuex.Store({
   state: {
     lists: savedLists ? JSON.parse(savedLists) : [
       {
-        title: 'Backlog',
+        title: 'ToDo',
         cards: [{
-          body: 'English',
-          memo: 'hahahah'
+            body: '英語',
+            memo: '単語を１０個覚える。'
           },
           {
-            body: 'Mathematics',
-            memo: 'huuhuhuh'
+            body: '数学',
+            memo: '問題集を２ページやる。'
           },
         ]
       },
       {
-        title: 'Todo',
+        title: '部活',
         cards: [{
-          body: 'Science',
-          memo: 'kakakaka'
-        }]
+            body: '基礎練習',
+            memo: 'グラウンド２周　５分以内'
+          },
+          {
+            body: 'グループ練習',
+            memo: 'フォーメーション確認'
+          },
+        ]
       },
       {
-        title: 'Doing',
-        cards: []
+        title: '週末',
+        cards: [{
+          body: 'デート',
+          memo: 'USJ ８時待ち合わせ'
+          },
+        ]
       }
     ],
   },
