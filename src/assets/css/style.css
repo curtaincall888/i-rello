@@ -13,8 +13,8 @@ header {
   background: orange;
   height: 70px;
   color: white;
-  font-style: italic;
-  font-size: 40px;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
   text-align: left;
   padding: 20px;
 }
@@ -26,6 +26,7 @@ main {
 }
 
 .info-line {
+  font-family: 'Bangers', cursive;
   margin: 20px;
   font-size: 20px;
 }
@@ -165,6 +166,7 @@ main {
 }
 
 .list-counter {
+  font-family: 'Bangers', cursive;
   color: rgb(0, 140, 255);
   padding: 15px;
 }
