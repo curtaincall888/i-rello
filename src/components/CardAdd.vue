@@ -7,8 +7,9 @@
              placeholder="Add new card"
              @focusin="startEditing"
              @focusout="finishEditing">
-      <hr width="260">
+      <hr width="260"  v-if="isEditing">
       <textarea class="memo-input"
+                v-if="isEditing"
                 v-model="memo"
                 cols="35"
                 rows="3"
