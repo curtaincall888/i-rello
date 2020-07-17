@@ -11,24 +11,28 @@ const store = new Vuex.Store({
       {
         title: 'ToDo',
         cards: [{
-            body: '英語',
-            memo: '単語を１０個覚える。'
+            body: 'プログラミング',
+            memo: 'アプリ作成'
           },
           {
-            body: '数学',
-            memo: '問題集を２ページやる。'
+            body: 'トレーニング',
+            memo: 'サーキット３セット\nランニング５キロ'
+          },
+          {
+            body: '買い物',
+            memo: 'タマネギ\nニンジン\nブロッコリー'
           },
         ]
       },
       {
-        title: '部活',
+        title: 'Done',
         cards: [{
-            body: '基礎練習',
-            memo: 'グラウンド２周　５分以内'
+            body: '読書',
+            memo: '今週中１冊'
           },
           {
-            body: 'グループ練習',
-            memo: 'フォーメーション確認'
+            body: 'DIY材料購入',
+            memo: '天板用'
           },
         ]
       },

@@ -3,13 +3,9 @@
     <button class="close-button" @click="removeCardFromList">
       ×
     </button>
-    <div class="body">
-      {{ body }}
-    </div>
+    <div class="body">{{ body }}</div>
     <hr width="260">
-    <div class="memo">
-      {{ memo }}
-    </div>
+    <div class="memo">{{ memo }}</div>
   </div>
 </template>
 
