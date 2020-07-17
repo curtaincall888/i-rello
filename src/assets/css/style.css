@@ -1,5 +1,5 @@
 html {
-  background: orange;
+  background:rgb(0, 140, 255);
   font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,7 +10,7 @@ html {
 }
 
 header {
-  background: orange;
+  background: rgb(0, 140, 255);
   height: 70px;
   color: white;
   font-family: 'Bangers', cursive;
@@ -128,13 +128,13 @@ main {
 }
 
 .addable .add-button {
-  background-color: #00d78f;
+  background-color: red;
   pointer-events: auto;
   cursor: pointer;
 }
 
 .add-button:active {
-  background-color: #00d78f;
+  background-color: red;
 }
 
 .list {
@@ -151,6 +151,8 @@ main {
   border: solid #ddd 1px;
   color: gray;
   vertical-align: top;
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .8));
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .8));
 }
 
 .listheader {
@@ -193,6 +195,8 @@ main {
   border-radius: 8px;
   width: 260px;
   cursor: pointer;
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .8));
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .8));
 }
 
 .close-button {
