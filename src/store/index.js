@@ -11,29 +11,29 @@ const store = new Vuex.Store({
       {
         title: 'ToDo',
         cards: [{
-            body: 'プログラミング',
-            memo: 'アプリ作成'
-          },
-          {
-            body: 'トレーニング',
-            memo: 'サーキット３セット\nランニング５キロ'
-          },
-          {
-            body: '買い物',
-            memo: 'タマネギ\nニンジン\nブロッコリー'
-          },
+          body: 'プログラミング',
+          memo: 'アプリ作成'
+        },
+        {
+          body: 'トレーニング',
+          memo: 'サーキット３セット\nランニング５キロ'
+        },
+        {
+          body: '買い物',
+          memo: 'タマネギ\nニンジン\nブロッコリー'
+        },
         ]
       },
       {
         title: 'Done',
         cards: [{
-            body: '読書',
-            memo: '今週中１冊'
-          },
-          {
-            body: 'DIY材料購入',
-            memo: '天板用'
-          },
+          body: '読書',
+          memo: '今週中１冊'
+        },
+        {
+          body: 'DIY材料購入',
+          memo: '天板用'
+        },
         ]
       },
       {
@@ -41,7 +41,11 @@ const store = new Vuex.Store({
         cards: [{
           body: 'デート',
           memo: 'USJ ８時待ち合わせ'
-          },
+        },
+        {
+          body: '英語',
+          memo: 'オンラインレッスン'
+        }
         ]
       }
     ],
