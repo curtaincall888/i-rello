@@ -2,7 +2,7 @@
 
 https://master.d1kg7ykzk6nbmn.amplifyapp.com/
 
-<img src="https://img.shields.io/badge/-Javascript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/Vue.js-ver2.6.11-4FC08D.svg?logo=vue.js&style=plastic"> <img src="https://img.shields.io/badge/Vuex-ver3.4.0-4FC08D.svg?logo=vue.js&style=plastic"> <img src="https://img.shields.io/badge/Amazon%20aws-Amplify-232F3E.svg?logo=amazon-aws&style=plastic">
+<img src="https://img.shields.io/badge/-Javascript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/Vue.js-ver2.6.11-4FC08D.svg?logo=vue.js&style=plastic"> <img src="https://img.shields.io/badge/Vuex-ver3.4.0-4FC08D.svg?logo=vue.js&style=plastic"> <img src="https://img.shields.io/badge/Amazon%20aws-Amplify-232F3E.svg?logo=amazon-aws&style=plastic"> <img src="https://img.shields.io/badge/-Git-F05032.svg?logo=git&style=plastic"> <img src="https://img.shields.io/badge/-Github-181717.svg?logo=github&style=plastic">
 
 ## 概要
 シンプルで使いやすい予定管理アプリを作成しました
